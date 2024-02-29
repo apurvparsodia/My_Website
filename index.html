@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apurv - CAD intern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23905cff66.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="left">Apurv's Portfolio</div>
+            <div class="rigth">
+                <ul>
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#project"> Projects</a></li>
+                    <li><a href="#contact">Contact me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"> Apurv</span>
+                <div class="passionate">and i am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- -------------about---------------->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="icons8-about-me-64.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore excepturi
+                            nesciunt, quidem quibusdam dolorem nemo possimus eum reiciendis qui sunt voluptate quaerat
+                            at cum nam. Deleniti pariatur placeat quaerat!
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Chip designer</span><br>Complete RTL to GDS flow</li>
+                                <li><span>Programmer</span><br>Automating and developing metholodies</li>
+                                <li><span>Web developer</span><br>Building websites</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-2024</span><br>CAD and EDA tool Intern At MArvell</li>
+                                <li><span>2022-2023</span><br>TA at NIT Kurukshetra</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2024</span><br>Masters in VLSI DESIGN from NIT Kurukshetra</li>
+                                <li><span>2018-2022</span><br>Bachelors in ECE from UIT RGPV</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ..................project............-->
+
+        <div class="project" style="padding-left: 30px;padding-right: 30px;">
+            <div class="container">
+                <h1 class="sub-title">My projects</h1>
+                <div class="project-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Designing Machine learning model</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, animi!</p>
+                        <a href="#">Know more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle-nodes"></i>
+                        <h2>Designing Low Power Radix-4 Booth Multiplier with Pre-Encoded Mechanism using Verilog</h2>
+                        <p>The major goal of this project is to create a pre-encoded mechanism that will increase
+                            multiplication's power efficiency by </p>
+                        <a href="#">Know more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-key"></i>
+                        <h2>Smart blind navigation system using RFID & IoT technology</h2>
+                        <p>The main goal of this project is to provide some WeMos D1 mini is the wireless (Wifi)
+                            microprocessor used in this project.</p>
+                        <a href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- -----------------My wort----------- -->
+        <!-- My be create in future -->
+
+        <!-- ----------------contact-------------- -->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-regular fa-envelope"></i>apurvparsoida@gmail.com</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/apurvparsodia/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/parsodia_apurv"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id = 'msg'>hello</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copywrite">
+                <div>copywrite ©Apurv all rights are reversed</div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['CAD engineer', 'Programmer', 'Web developer', 'INDIAN!!'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzryWcMGP3ua-eVbVbccH63G1l32M619pkaM6nd3OgAX68k-3Bw54TtM3wsAijzp17b/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                })
+                form.reset()
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
